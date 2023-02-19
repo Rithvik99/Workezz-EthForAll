@@ -1,0 +1,52 @@
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-inline: 5%;
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+    border-bottom: 1px solid;
+    border-color: white;
+}
+
+
+
+
+.navButton {
+    background-color: transparent;
+    color: white;
+    border: none;
+    transition: transform 0.3s ease-out;
+}
+
+.navButton:hover {
+
+    transform: translate(-1%, -2%);
+
+    box-shadow: 0px 2px 0px rgba(105, 222, 230, 1), 2px 0px 0px #272727;
+}
+
+.navButtonActive{
+    border-bottom: 2px solid #69dee6;
+    background-color: #272727;
+    border-top: none;
+    border-inline: none ;
+    color: white;
+}
+.jobscontainer {
+    width: 60%;
+    max-width: 800px;
+    height: 700px; /* Add height property */
+    background: #474747;
+    color: white;
+    margin: 0 auto;
+    border-radius: 2%;
+    padding-inline: 0.5%;
+    padding-bottom: 5%;
+    overflow: scroll;
+}
+
+.wrapper {
+    height: 100vh;
+    overflow: hidden;
+}

@@ -1,0 +1,98 @@
+.comple {
+    display: flex;
+    width: 100%;
+    min-height: 80vh;
+}
+
+.Lefthalf {
+    min-width: 75vh;
+    margin-inline: 5vh;
+    background-color: #383838;
+    max-height: 80vh;
+    overflow: hidden;
+}
+
+.Righthalf {
+    min-width: 103vh;
+    margin-inline: 5vh;
+    min-height: 50vh;
+    max-height: 80vh;
+    height: 80vh;
+}
+
+.closepostjobphoto {
+    height: 30vh;
+    margin-left: 2vh;
+    margin-top: 2vh;
+    width: 42vh;
+}
+
+.closepostjobname {
+
+    font-weight: bold;
+    color: white;
+    font-size: 150%;
+    margin-left: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 0;
+}
+
+.closepostjobdes {
+    /* style={{ color: 'white', fontSize: '100%', marginInline: '2vh', maxHeight: '20vh', overflow: 'hidden' }} */
+    color: white;
+    font-size: 100%;
+    margin-inline: 2vh;
+    max-height: 20vh;
+    
+}
+
+.closepostpay {
+    /* style={{ color: 'white', fontSize: '150%', marginLeft: '2vh', marginTop: '1vh', marginBottom: 'none' }} */
+    color: white;
+    font-size: 150%;
+    margin-left: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 0;
+}
+
+
+.closepostpayc {
+    color: white;
+    font-size: 300%;
+    margin-left: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 0;
+}
+
+.closepostrecphoto{
+
+    width: 5vh;
+    height: 5vh;
+    overflow: none;
+    border-radius: 50%;
+    margin-right: 1vh;
+}
+
+.closepostappphoto{
+    /* style={{ width: '10vh', height: '10vh', overflow: 'none', borderRadius: '50%', marginInline: '1vh' }} */
+    width: 10vh;
+    height: 10vh;
+    overflow: none;
+    border-radius: 50%;
+    margin-inline: 1vh;
+}
+
+.closepostmoney{    
+    font-weight: bold;
+    color:white;
+    font-size: 180%;
+    margin-left: 2vh;
+}
+
+.closepostcat{
+    
+    font-weight: bold;
+    color:white;
+    font-size: 150%;
+    margin-left: 2vh;
+}

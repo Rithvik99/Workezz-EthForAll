@@ -1,0 +1,44 @@
+.jobsnotification {
+    background-color: #272727;
+    border: none;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.jobsprofile{
+    background-color: none;
+    border: white;
+    border-radius: 24px;
+    width: 48px;
+    height: 48px;
+    position: relative;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.topNavJobsContainer{
+    /* display: "flex", justifyContent: "left", alignItems: "center" , borderBottom: "1px"; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 1px solid;
+    border-color: white;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+    margin-top: 0.5%;
+}
+
+.jobsnotPopup{
+    position: absolute;
+    top: 50px;
+    right: 6%;
+    background-color: #272727;
+    min-width: 20% ;
+    width: 20%;
+    min-height: 40%;
+    height: 40%;
+    overflow-y: scroll;
+    border: none;
+    border-radius: 5px;
+    z-index: 9999;
+}

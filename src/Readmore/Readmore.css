@@ -1,0 +1,74 @@
+.readmoreback{
+    background-color: #838282;
+    width: 96%;
+    height: 80%;
+    margin: 2%;
+    position: fixed;
+    color: white;
+}
+
+.readmoreprofilePhoto {
+    width: 3%;
+    overflow: hidden;
+    border-radius: 50%;
+    
+}
+
+.readmoreprofilePhoto img {
+    width: 100%;
+    height: auto;
+}
+
+.readmoreSecLine{
+    /* display: 'flex', alignItems: 'center', marginTop: '1%', borderBottom: '1px solid white', marginInline: '3%', paddingBottom: '1%'  */
+    display: flex ;
+    align-items: center;
+    margin-top: 1%;
+    border-bottom: 1px solid white;
+    margin-inline: 3%;
+    padding-bottom: 1%;
+}
+
+.readmoreTitle{
+    /*marginLeft: '3%', marginTop: '2%', fontSize: '200%'*/
+    margin-left: 3%;
+    margin-top: 2%;
+    font-size: 200%;
+}
+
+.readmoreThirdLine{
+    /* style={{ display: 'flex', marginTop: '2%', marginInline: '3%' }} */
+    display: flex;
+    margin-top: 2%;
+    margin-inline: 3%;
+}
+
+.readmoreApply{
+background-color: #69dee6;
+border: none;
+border-radius: 10px;
+width: 20%;
+height: 55px;
+align-items: baseline;
+margin-left: 39%;
+}
+
+.confirmationPopup {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+  }
+  
+  .confirmationPopup > div {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  

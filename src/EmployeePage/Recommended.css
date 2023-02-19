@@ -1,0 +1,86 @@
+.recommendedContainer {
+    background-color: black;
+    margin-left: 2%;
+    min-height: 180%;
+    min-width: 13%;
+    width: 13%;
+
+}
+
+.companyContainer {
+    display: flex;
+    align-items: center;
+    margin: none;
+}
+
+
+.profilePhoto {
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 3%;
+}
+
+
+.companyText {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    font-weight: 1%;
+    margin-top: 7%;
+    margin-left: 5%;
+    word-wrap: break-word;
+}
+
+
+.jobDescription {
+    font-size: 10px;
+    margin-left: 3%;
+    color: white;
+    font-weight: 1%;
+    word-wrap: break-word;
+    border-bottom: 1px solid;
+    border-color: white;
+    padding-bottom: 5%;
+}
+
+
+
+.plusMessage {
+    position: absolute;
+    top: -30%;
+    left: 2%;
+    padding-inline: 5%;
+    background-color: #272727;
+    color: white;
+    border-radius: 5%;
+    font-size: 10px;
+}
+
+
+.heartMessage {
+    position: absolute;
+    top: -30%;
+    left: 15%;
+    padding-inline: 5%;
+    background-color: #272727;
+    color: white;
+    border-radius: 5%;
+    font-size: 10px;
+}
+
+
+.readMoreButton {
+    color: white;
+    background-color: black;
+    border-color: white;
+    border-radius: 10%;
+    font-size: 10px;
+    margin-left: 28%;
+}
+
+.readMoreButton:hover {
+    border-color: #69dee6;
+    color: #69dee6;
+  }

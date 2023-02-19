@@ -1,0 +1,12 @@
+.selected {
+    background-color: #ffffff;
+    color: #69dee6;
+    border-color: #69dee6;
+    }
+
+
+
+.classbutton{
+    align-items: center;
+    justify-content: center;
+}

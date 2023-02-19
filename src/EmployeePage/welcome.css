@@ -1,0 +1,11 @@
+.welcomepattern{
+
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    margin-left: 75px;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #69dee6;
+    flex-direction: column;
+}

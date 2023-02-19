@@ -1,0 +1,9 @@
+.trail{
+    color: aquamarine;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}

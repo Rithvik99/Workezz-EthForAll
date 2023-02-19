@@ -1,0 +1,80 @@
+.addgigtitle {
+    /* display:'flex',justifyContent:'center',color:'white',alignItems:'center',fontWeight:'bolder',fontSize:'200%' */
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 200%;
+    margin-top: 3%;
+}
+
+.postinput {
+    color: white;
+    background-color:#383838;
+}
+
+.postinput::placeholder{
+    color: white;
+}
+
+
+.posttextarea {
+    color: black;
+    background-color: #383838;
+}
+
+.posttextarea::placeholder {
+    color: white;
+}
+
+.takeInputs{
+    margin: 5%;
+    margin-top: 2%;
+    display: flex;
+}
+
+.firstleft{
+    width: 130vh;
+    font-size: larger;
+    height: 6vh;
+    border-radius: 5px;
+    border-color: white ;
+    margin-right: 1vh;
+    color: white;
+    background-color:#383838;
+}
+
+.secondleft{
+    width: 130vh;
+    border-radius: 5px;
+    border-color: white ;
+    font-size: larger;
+    height: 40vh;
+    margin-top: 3vh;
+    margin-right: 1vh;
+    color: white;
+    background-color:#383838;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .form label {
+    flex: 1;
+    margin: 2vh 2vh;
+  }
+
+.thirdline{
+    height: 6vh;
+    width: 35vh;
+    font-size: larger;
+    border-color: white ;
+    border-radius: 5px;
+    color: white;
+    background-color:#383838;
+}
+  

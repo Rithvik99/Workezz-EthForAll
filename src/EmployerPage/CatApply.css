@@ -1,0 +1,16 @@
+
+.classbutton{
+    align-items: center;
+    justify-content: center;
+    border: white;
+}
+
+.postselected{
+    color: #69dee6;
+    border-color: #69dee6;
+}
+
+.notselected{
+    border-color: white;
+    color: white;
+}

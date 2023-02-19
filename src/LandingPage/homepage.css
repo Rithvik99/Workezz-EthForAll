@@ -1,0 +1,123 @@
+body {
+    overflow: hidden;
+}
+
+@keyframes shrink {
+    from {
+        height: 7000vh;
+        width: 7000vh;
+    }
+
+    to {
+        height: 0;
+        width: 0;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes bright {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: #69dee6;
+
+    position: absolute;
+    top: -23%;
+    bottom: 0;
+    left: 0;
+    right: -17%;
+
+    margin: auto;
+
+    height: 0;
+    width: 0;
+
+    animation: shrink 1s cubic-bezier(0, 0.9, 0.1, 0.99), 
+               fade 1s cubic-bezier(0.5,0.01,1,1);
+}
+
+
+.prompt {
+    width: 25vw;
+    height: 40vh;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+
+    opacity: 1;
+
+    animation-name: bright;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+.logo {
+    font-size: 400%;
+    margin-bottom: 30%;
+    text-align: center;
+    color: #69dee6;
+}
+
+#logohead {
+    color: white;
+}
+
+.signup {
+    margin-bottom: 7%;
+    display: flex;
+    justify-content: center;
+}
+
+.signupbutton {
+    background-color: #69a0e6;
+    color: black;
+    border: none;
+    font-weight: bold;
+    font-size: 96%;
+    padding: 2% 7%;
+    border-radius: 8px;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+}
+
+.logintext {
+    color: white;
+    font-size: 70%;
+}
+
+.loginbutton {
+    font-size: 70%;
+    color: #69a0e6;
+    background: transparent;
+    border: none;
+}
+
+.errortext {
+    font-size : 70%;
+    color: red;
+}
