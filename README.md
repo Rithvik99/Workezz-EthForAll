@@ -15,6 +15,7 @@ Our platform is designed to be user-friendly and accessible to freelancers and b
 Overall, our platform represents a new paradigm in online marketplaces, one that is built on the principles of decentralization, transparency, and security. We believe that our platform has the potential to revolutionize the way that freelancers and businesses interact, and we are committed to building a vibrant and thriving community of users around our platform.
 
 Dependencies
+
 React [Packages Included in packages.json]
 Ganache [Local BlockChain]
 Truffle [Compile & Deploy Contracts]
