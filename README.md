@@ -27,3 +27,11 @@ Steps<br/>
 -> truffle migrate --reset<br/>
 -> npm install [To install dependencies]<br/>
 -> npm start<br/>
+
+Transaction Id (Contract 1): 0x9fab5b191b4cef4ce83ac7ac9a1cece4da13feec7dde676df10e0c16c18fcf96<br/>
+RobustAddress" (Contract 1) : f2rppzf4selci2iqbp3etgyn2cj267gt34hyojkza<br/>
+EthAddress" (Contract 1): 0x7bcd95d93ecad97be9c8de1badd8bcf6516bc660<br/>
+
+Transaction Id (Contract 2) : 0x081f7b3033591c8d80bfbcf6944783d11afa1ff462987781518c8c7f9ad23ee6<br/>
+RobustAddress (Contract 2) : f2fc5tybfdurawuup3kcuxpp3s6phebjwrz62oasq<br/>
+EthAddress (Contract 2) : 0xdb9646c25b150ff3dd65ac3de60e38a171c4d034<br/>
