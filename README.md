@@ -17,14 +17,24 @@ Overall, our platform represents a new paradigm in online marketplaces, one that
 Dependencies
 
 React [Packages Included in packages.json]
+
 Ganache [Local BlockChain]
+
 Truffle [Compile & Deploy Contracts]
+
 Hardhat Wallet
 
 Steps
+
 -> truffle compile [Compiling Contracts]
+
 -> Move the jsons generated from build to src/Jsons
+
 -> Edit Contracts.js [Update Netword Id]
+
 -> truffle migrate --reset
+
 -> npm install [To install dependencies]
+
 -> npm start
+
