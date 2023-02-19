@@ -20,7 +20,7 @@ Ganache [Local BlockChain]<br/>
 Truffle [Compile & Deploy Contracts]<br/>
 Hardhat Wallet<br/>
 
-Steps
+Steps<br/>
 -> truffle compile [Compiling Contracts]<br/>
 -> Move the jsons generated from build to src/Jsons<br/>
 -> Edit Contracts.js [Update Netword Id]<br/>
